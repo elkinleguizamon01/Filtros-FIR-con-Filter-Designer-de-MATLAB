@@ -1,10 +1,3 @@
---------------------------------------------------------------------------------
--- Archivo      : antirrebote.vhd
--- Descripcion  : Circuito antirrebote para un pulsador activo en bajo (KEY[0])
---                y generador de un pulso de un solo ciclo de reloj al detectar
---                una pulsacion estable. Reset sincrono, dominio unico CLOCK_50.
---------------------------------------------------------------------------------
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
